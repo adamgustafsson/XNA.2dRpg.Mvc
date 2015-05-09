@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent xmlns:Generic="System.Collections.Generic">
+  <Asset Type="Generic:List[Reader.Quest]">
+    <Item>
+      <!--Unikt Id på quest-->
+      <Id>1</Id>
+      <!--Questgiver-->
+      <QuestPickup>1</QuestPickup>
+      <QuestTurnIn>2</QuestTurnIn>
+      <Status>0</Status>
+      <!--Meddelande-->
+      <PreMessage>Ralph: I've heard screams coming from the city all morning. I'm worried for my brother Steve but I'm to old to travel there myself. Would you do an old man a favor and make sure he's allright?</PreMessage>
+      <MidMessage>Ralph: Very kind! To get to Midtown, just follow the road south. You'll most likely find my brother inside the in. Oh, and be aware of the goblins lurking around.</MidMessage>
+      <EndMessage>Steve: Ralph sent you, you say? Yes I'm allright.. thus far.</EndMessage>
+      <!--Req för quest-->
+      <Objectives>
+        <Item>
+          <Obj>1</Obj>
+          <ObjType>2</ObjType>
+          <Amount>1</Amount>
+          <Name>Find Steve</Name>
+      </Item>
+      </Objectives>
+      
+    </Item>
+
+    <Item>
+      <!--Unikt Id på quest-->
+      <Id>2</Id>
+      <!--Questgiver-->
+      <QuestPickup>2</QuestPickup>
+      <QuestTurnIn>3</QuestTurnIn>
+      <Status>0</Status>
+      <!--Meddelande-->
+      <PreMessage>Steve: Those evil knights have been plundering the city all morning! You must help us defeat them!?</PreMessage>
+      <MidMessage>Steve: Kill them all Templar! I believe theres three of them. It sounds like they're now tormenting the northen part of the city. If you succeed, talk to Sven up at the marketplace.</MidMessage>
+      <EndMessage>Sven: Well done Templar! Without you we would all be lost!</EndMessage>
+      <!--Req för quest-->
+      <Objectives>
+        <Item>
+          <Obj>0</Obj>
+          <ObjType>0</ObjType>
+          <Amount>3</Amount>
+          <Name>Knights</Name>
+        </Item>
+      </Objectives>
+    </Item>
+    
+    <Item>
+      <!--Unikt Id på quest-->
+      <Id>3</Id>
+      <!--Questgiver-->
+      <QuestPickup>3</QuestPickup>
+      <QuestTurnIn>3</QuestTurnIn>
+      <Status>0</Status>
+      <!--Meddelande-->
+      <PreMessage>Sven: Those were evil knights from the south lands, wearing the mark of the desert-Lord Brynolf. Another attack would be the end of Midtown! Please young templar, help us bring an end to Brynolfs evilness !?</PreMessage>
+      <MidMessage>Sven: Bless you! The evil desert-Lord is located deep into the Dreadful Desert. They say he's stationed in a camp within the dry mountains. Bring us his head templar! Good luck.</MidMessage>
+      <EndMessage>Sven: Praise you templar! You've saved the city! The people of Midtown will never forget your deeds!</EndMessage>
+      <!--Req för quest-->
+      <Objectives>
+        <Item>
+          <Obj>3</Obj>
+          <ObjType>1</ObjType>
+          <Amount>1</Amount>
+          <Name>Brynolfs head</Name>
+        </Item>
+      </Objectives>
+    </Item>
+  </Asset>
+</XnaContent>

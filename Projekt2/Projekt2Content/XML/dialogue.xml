@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent xmlns:Generic="System.Collections.Generic">
+  <Asset Type="Generic:List[Reader.Dialogue]">
+    <Item>
+      <id>4</id>
+      <message>
+        <Item>
+          <msg>Cityguard: Not this way Templar! I believe your services are needed elsewhere!</msg>
+          <choices>
+            <Item></Item>
+            <Item></Item>
+          </choices>
+        </Item>
+        <Item>
+          <msg>Cityguard: Pass right through Sir!</msg>
+          <choices>
+            <Item></Item>
+            <Item></Item>
+          </choices>
+        </Item>
+      </message>
+    </Item>
+  </Asset>
+</XnaContent>

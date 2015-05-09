@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D-RPG", "Projekt2\Projekt2\2D-RPG.csproj", "{A6675847-7EBE-4DBA-A584-EDA6973E4330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content", "Projekt2\Projekt2Content\Content.contentproj", "{AABBBD99-25D3-4E82-BD45-FC401A87CE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader", "MessageLibrary\Reader.csproj", "{F567B56B-74F9-461A-AF37-EE9C8A4B943B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9AACD870-1511-4B1B-B991-88906240B097}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6675847-7EBE-4DBA-A584-EDA6973E4330}.Debug|x86.ActiveCfg = Debug|x86
+		{A6675847-7EBE-4DBA-A584-EDA6973E4330}.Debug|x86.Build.0 = Debug|x86
+		{A6675847-7EBE-4DBA-A584-EDA6973E4330}.Release|x86.ActiveCfg = Release|x86
+		{A6675847-7EBE-4DBA-A584-EDA6973E4330}.Release|x86.Build.0 = Release|x86
+		{AABBBD99-25D3-4E82-BD45-FC401A87CE4B}.Debug|x86.ActiveCfg = Debug|x86
+		{AABBBD99-25D3-4E82-BD45-FC401A87CE4B}.Release|x86.ActiveCfg = Release|x86
+		{F567B56B-74F9-461A-AF37-EE9C8A4B943B}.Debug|x86.ActiveCfg = Debug|x86
+		{F567B56B-74F9-461A-AF37-EE9C8A4B943B}.Debug|x86.Build.0 = Debug|x86
+		{F567B56B-74F9-461A-AF37-EE9C8A4B943B}.Release|x86.ActiveCfg = Release|x86
+		{F567B56B-74F9-461A-AF37-EE9C8A4B943B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

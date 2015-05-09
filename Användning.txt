@@ -1,0 +1,14 @@
+
+För att starta spelet så behövs det lägga till en referens till Xtiled i Content delen av projektet.
+
+Xtiled finns bifogat i en rarfil alternativt går det att ladda ner från https://bitbucket.org/vinull/xtiled
+
+Gör såhär:
+
+1. Starta projektet genom att klicka på Version3.sln
+2. Under Version3Content(Content)/References, högerklicka på den Xtiled referens som har ett utropstecken på sig och välj Remove.
+3. Högerklicka på References och välj Add Reference.
+4. Välj fliken Browse. Leta upp den medskickade filen Xtiled/XTiled-0.8.1.1i/FuncWorks.XNA.XTiledExtensions.dll och lägg till den som reference. 
+5. Spelet skall nu gå att debugga men F5 eller via Debug.exe i debugmappen.
+
+
